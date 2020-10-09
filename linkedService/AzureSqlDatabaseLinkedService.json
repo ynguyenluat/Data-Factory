@@ -5,8 +5,12 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=mysqlserverynguyenluat.database.windows.net;initial catalog=mySampleDatabase;user id=azureuser",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZWU5HVVlFTkxVQVRfNzQ2MTVhMjUtMGNlZi00YzQ4LTkxOWQtN2FjNTJmNWJiYjc1Ig0KfQ=="
+			"connectionString": "integrated security=False;encrypt=true;connection timeout=30;data source=DESKTOP-RVOKVTK\\SQLSERVER2019;initial catalog=mySampleDatabase;user id=sa;trustservercertificate=true",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwMDk1YjBhMi00Mzg0LTRiZDgtYWY0ZC0xZGJiNzU2ZmMyMzIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "TutorialIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
