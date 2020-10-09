@@ -7,13 +7,21 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "datafactoryynguyenluat"
 		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLinkedService'"
+		},
 		"AzureStorageLinkedService_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
+		"AzureStorageLinkedServiceNew_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLinkedService'"
+			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedServiceNew'"
+		},
+		"SqlServerLinkedService_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServerLinkedService'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -47,6 +55,12 @@
 					},
 					"AzureSqlDatabaseLinkedService_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseLinkedService_connectionString')]"
+					},
+					"AzureStorageLinkedServiceNew_connectionString": {
+						"value": "[parameters('AzureStorageLinkedServiceNew_connectionString')]"
+					},
+					"SqlServerLinkedService_connectionString": {
+						"value": "[parameters('SqlServerLinkedService_connectionString')]"
 					}
 				}
 			},

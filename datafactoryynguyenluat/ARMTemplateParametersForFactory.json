@@ -5,10 +5,16 @@
 		"factoryName": {
 			"value": "datafactoryynguyenluat"
 		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
+		},
 		"AzureStorageLinkedService_connectionString": {
 			"value": ""
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
+		"AzureStorageLinkedServiceNew_connectionString": {
+			"value": ""
+		},
+		"SqlServerLinkedService_connectionString": {
 			"value": ""
 		}
 	}
