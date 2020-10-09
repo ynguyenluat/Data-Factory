@@ -7,6 +7,9 @@
 		},
 		"AzureStorageLinkedService_connectionString": {
 			"value": ""
+		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
 		}
 	}
 }
