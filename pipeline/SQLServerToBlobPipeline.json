@@ -1,0 +1,6 @@
+{
+	"name": "SQLServerToBlobPipeline",
+	"properties": {
+		"annotations": []
+	}
+}
