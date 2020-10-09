@@ -10,6 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@CONCAT(pipeline().RunId, '.txt')",
+					"type": "Expression"
+				},
 				"folderPath": "fromonprem",
 				"container": "adftutorial"
 			},
