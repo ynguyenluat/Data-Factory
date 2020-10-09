@@ -1,0 +1,23 @@
+{
+	"name": "AzureBlobDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureStorageLinkedServiceNew",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "fromonprem",
+				"container": "adftutorial"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
