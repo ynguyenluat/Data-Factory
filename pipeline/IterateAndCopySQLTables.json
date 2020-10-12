@@ -1,0 +1,26 @@
+{
+	"name": "IterateAndCopySQLTables",
+	"properties": {
+		"activities": [
+			{
+				"name": "IterateSQLTables",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.tableList",
+						"type": "Expression"
+					},
+					"isSequential": false
+				}
+			}
+		],
+		"parameters": {
+			"tableList ": {
+				"type": "array"
+			}
+		},
+		"annotations": []
+	}
+}
