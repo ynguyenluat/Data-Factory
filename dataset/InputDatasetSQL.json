@@ -11,8 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "emp.txt",
-				"folderPath": "input",
-				"container": "adftutorialsql"
+				"container": "adfv2tutorial"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
