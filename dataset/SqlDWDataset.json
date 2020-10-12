@@ -1,0 +1,30 @@
+{
+	"name": "SqlDWDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AdventureWorksLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"DWTableName": {
+				"type": "string"
+			},
+			"DWSchema": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().DWSchema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().DWTableName",
+				"type": "Expression"
+			}
+		}
+	}
+}
