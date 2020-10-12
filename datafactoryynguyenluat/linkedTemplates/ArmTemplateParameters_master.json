@@ -5,7 +5,7 @@
 		"factoryName": {
 			"value": "datafactoryynguyenluat"
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
+		"AdventureWorksAzureLinkedService_connectionString": {
 			"value": ""
 		},
 		"AzureStorageLinkedService_connectionString": {
@@ -15,6 +15,9 @@
 			"value": ""
 		},
 		"SqlServerLinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
