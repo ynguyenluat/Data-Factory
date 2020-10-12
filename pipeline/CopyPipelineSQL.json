@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "CopyFromBlobToSql",
+				"name": "CopyFromBlobToSqlPIpeline",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -72,7 +72,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "OutputSqlDataset",
+						"referenceName": "AzureSqlDatabase",
 						"type": "DatasetReference"
 					}
 				]
