@@ -6,7 +6,7 @@
 		"type": "SqlServer",
 		"typeProperties": {
 			"connectionString": "integrated security=False;data source=DESKTOP-RVOKVTK\\SQLSERVER2019;initial catalog=mySampleDatabase;user id=sa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3NmQ1NGE0Zi1iY2YxLTQ4MmQtOWNlOC1mMzc5MzBhZGMzMWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyODgzOTE2MC00MjdiLTQzYWItYWY2Ny1jNmY1ZDQ2MDcyMzAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "TutorialIntegrationRuntime",
