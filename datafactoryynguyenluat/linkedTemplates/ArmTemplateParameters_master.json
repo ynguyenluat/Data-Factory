@@ -8,6 +8,15 @@
 		"AdventureWorksAzureLinkedService_connectionString": {
 			"value": ""
 		},
+		"AdventureWorksLinkedService_connectionString": {
+			"value": ""
+		},
+		"AdventureworksAzureDWLinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
+		},
 		"AzureStorageLinkedService_connectionString": {
 			"value": ""
 		},
@@ -17,8 +26,11 @@
 		"SqlServerLinkedService_connectionString": {
 			"value": ""
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
+		"ADLSGen2_accountKey": {
 			"value": ""
+		},
+		"ADLSGen2_properties_typeProperties_url": {
+			"value": "https://moviedbynguyenluat.dfs.core.windows.net"
 		},
 		"containerUri": {
 			"value": ""
