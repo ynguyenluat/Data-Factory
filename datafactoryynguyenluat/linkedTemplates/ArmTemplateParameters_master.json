@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "datafactoryynguyenluat"
 		},
+		"ADLSGen2_accountKey": {
+			"value": ""
+		},
 		"AdventureWorksAzureLinkedService_connectionString": {
 			"value": ""
 		},
@@ -26,11 +29,8 @@
 		"SqlServerLinkedService_connectionString": {
 			"value": ""
 		},
-		"ADLSGen2_accountKey": {
-			"value": ""
-		},
 		"ADLSGen2_properties_typeProperties_url": {
-			"value": "https://moviedbynguyenluat.dfs.core.windows.net"
+			"value": "https://adlstgen2.dfs.core.windows.net"
 		},
 		"containerUri": {
 			"value": ""
